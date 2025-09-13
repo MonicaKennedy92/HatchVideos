@@ -138,43 +138,46 @@ Swift 5.9 or later
 Steps to Build
 Clone or Download the Project
 
-bash
+command line / bash
 # If using git
-git clone https://github.com/MonicaKennedy92/HatchVideos.git
-cd VideoFeedApp
-Open in Xcode
 
-bash
-open VideoFeedApp.xcodeproj
+- git clone https://github.com/MonicaKennedy92/HatchVideos.git
+
+- cd HatchVideos
+
+- Open in Xcode
+
+- open HatchVideos.xcodeproj
 Or open Xcode and select "Open Existing Project"
 
 Configure Signing
 
-Select the project in the navigator
+- Select the project in the navigator
 
-Select the target "VideoFeedApp"
+- Select the target "HatchVideos"
 
-Go to "Signing & Capabilities" tab
+- Go to "Signing & Capabilities" tab
 
-Select your team or use personal team for development
+- Select your team or use personal team for development
 
-Build and Run
+- Build and Run
 
-Select a target device (iPhone simulator or physical device)
+- Select a target device (iPhone simulator or physical device)
 
-Press ⌘ + R to build and run the application
+- Press ⌘ + R to build and run the application
 
 Testing on Physical Device
-Connect your iOS device to your Mac
 
-Select your device from the run destination menu
+- Connect your iOS device to your Mac
 
-Ensure your device is trusted in Xcode
+- Select your device from the run destination menu
 
-Build and run (⌘ + R)
+- Ensure your device is trusted in Xcode
+
+- Build and run (⌘ + R)
 
 
-* Dependencies
+ Dependencies
 
 1. iOS native frameworks only:
 
