@@ -1,6 +1,8 @@
 1) Overview
 This iOS application implements a video feed with infinite scrolling, automatic playback, and seamless looping. The app fetches HLS video streams from a provided manifest and displays them in a vertically scrollable feed.
 
+
+
 2) Architecture
 
 * Key Components
