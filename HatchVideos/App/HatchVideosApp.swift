@@ -11,7 +11,9 @@ import SwiftUI
 struct HatchVideosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VideoFeedView()
+                .environmentObject(VideoPlayerManager.shared)
+                .preferredColorScheme(.dark) 
         }
     }
 }
